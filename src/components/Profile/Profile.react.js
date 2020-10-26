@@ -3,7 +3,7 @@
 import * as React from "react";
 import cn from "classnames";
 
-import { Card, Header, SocialNetworksList } from "../../components";
+import { Card, Header } from "../../components";
 
 import ProfileImage from "./ProfileImage.react";
 
@@ -21,10 +21,12 @@ function Profile({
   className,
   children,
   name,
+  email,
+  membershipType,
+  buttonText,
+  buttonURL,
   avatarURL = "",
-  twitterURL = "",
   backgroundURL = "",
-  bio,
 }: Props): React.Node {
   const classes = cn("card-profile", className);
   return (
@@ -33,12 +35,6 @@ function Profile({
       <Card.Body className="text-center">
         <ProfileImage avatarURL={avatarURL} />
         <Header.H3 className="mb-3">{name}</Header.H3>
-        <p className="mb-4">{bio || children}</p>
-        <SocialNetworksList
-          itemsObjects={[{ name: "twitter", label: "Follow" }]}
-          prefix="fa"
-          asButtons
-        />
       </Card.Body>
     </Card>
   );

@@ -22,12 +22,12 @@ Dashboard UI
   --white: #fff;
   --gray: #868e96;
   --gray-dark: #343a40;
-  --azure: #45aaf2;
+  --azure: #1ba41b;
   --lime: #7bd235;
   --primary: #1ba41b;
   --secondary: #868e96;
   --success: #5eba00;
-  --info: #45aaf2;
+  --info: #1ba41b;
   --warning: #f1c40f;
   --danger: #cd201f;
   --light: #f8f9fa;
@@ -2642,8 +2642,8 @@ fieldset:disabled a.btn {
 
 .btn-info {
   color: #fff;
-  background-color: #45aaf2;
-  border-color: #45aaf2;
+  background-color: #1ba41b;
+  border-color: #1ba41b;
 }
 
 .btn-info:hover {
@@ -2660,8 +2660,8 @@ fieldset:disabled a.btn {
 .btn-info.disabled,
 .btn-info:disabled {
   color: #fff;
-  background-color: #45aaf2;
-  border-color: #45aaf2;
+  background-color: #1ba41b;
+  border-color: #1ba41b;
 }
 
 .btn-info:not(:disabled):not(.disabled):active,
@@ -2945,16 +2945,16 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-info {
-  color: #45aaf2;
+  color: #1ba41b;
   background-color: transparent;
   background-image: none;
-  border-color: #45aaf2;
+  border-color: #1ba41b;
 }
 
 .btn-outline-info:hover {
   color: #fff;
-  background-color: #45aaf2;
-  border-color: #45aaf2;
+  background-color: #1ba41b;
+  border-color: #1ba41b;
 }
 
 .btn-outline-info:focus,
@@ -2964,7 +2964,7 @@ fieldset:disabled a.btn {
 
 .btn-outline-info.disabled,
 .btn-outline-info:disabled {
-  color: #45aaf2;
+  color: #1ba41b;
   background-color: transparent;
 }
 
@@ -2972,8 +2972,8 @@ fieldset:disabled a.btn {
 .btn-outline-info:not(:disabled):not(.disabled).active,
 .show > .btn-outline-info.dropdown-toggle {
   color: #fff;
-  background-color: #45aaf2;
-  border-color: #45aaf2;
+  background-color: #1ba41b;
+  border-color: #1ba41b;
 }
 
 .btn-outline-info:not(:disabled):not(.disabled):active:focus,
@@ -4935,7 +4935,7 @@ tbody.collapse.show {
 
 .badge-info {
   color: #fff;
-  background-color: #45aaf2;
+  background-color: #1ba41b;
 }
 
 .badge-info[href]:hover,
@@ -6210,7 +6210,7 @@ button.bg-success:focus {
 }
 
 .bg-info {
-  background-color: #45aaf2 !important;
+  background-color: #1ba41b !important;
 }
 
 a.bg-info:hover,
@@ -6325,7 +6325,7 @@ button.bg-dark:focus {
 }
 
 .border-info {
-  border-color: #45aaf2 !important;
+  border-color: #1ba41b !important;
 }
 
 .border-warning {
@@ -9753,7 +9753,7 @@ a.text-success:focus {
 }
 
 .text-info {
-  color: #45aaf2 !important;
+  color: #1ba41b !important;
 }
 
 a.text-info:hover,
@@ -11691,7 +11691,7 @@ button.bg-gray-dark:focus {
 }
 
 .bg-azure {
-  background-color: #45aaf2 !important;
+  background-color: #1ba41b !important;
 }
 
 a.bg-azure:hover,
@@ -11702,7 +11702,7 @@ button.bg-azure:focus {
 }
 
 .text-azure {
-  color: #45aaf2 !important;
+  color: #1ba41b !important;
 }
 
 .bg-lime {
@@ -12921,8 +12921,8 @@ a.icon:hover {
 
 .btn-azure {
   color: #fff;
-  background-color: #45aaf2;
-  border-color: #45aaf2;
+  background-color: #1ba41b;
+  border-color: #1ba41b;
 }
 
 .btn-azure:hover {
@@ -12939,8 +12939,8 @@ a.icon:hover {
 .btn-azure.disabled,
 .btn-azure:disabled {
   color: #fff;
-  background-color: #45aaf2;
-  border-color: #45aaf2;
+  background-color: #1ba41b;
+  border-color: #1ba41b;
 }
 
 .btn-azure:not(:disabled):not(.disabled):active,
@@ -13978,7 +13978,7 @@ Card alert
 
 .avatar-azure {
   background-color: #c7e6fb;
-  color: #45aaf2;
+  color: #1ba41b;
 }
 
 .avatar-lime {
@@ -14933,7 +14933,7 @@ a.tag-addon:hover {
 }
 
 .tag-azure {
-  background-color: #45aaf2;
+  background-color: #1ba41b;
   color: #fff;
 }
 
@@ -14958,7 +14958,7 @@ a.tag-addon:hover {
 }
 
 .tag-info {
-  background-color: #45aaf2;
+  background-color: #1ba41b;
   color: #fff;
 }
 

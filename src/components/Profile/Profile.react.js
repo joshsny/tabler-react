@@ -21,10 +21,6 @@ function Profile({
   className,
   children,
   name,
-  email,
-  membershipType,
-  buttonText,
-  buttonURL,
   avatarURL = "",
   backgroundURL = "",
 }: Props): React.Node {
@@ -35,6 +31,7 @@ function Profile({
       <Card.Body className="text-center">
         <ProfileImage avatarURL={avatarURL} />
         <Header.H3 className="mb-3">{name}</Header.H3>
+        {children}
       </Card.Body>
     </Card>
   );

@@ -1,6 +1,6 @@
 // @ flow
 const colors: { [string]: string } = {
-  blue: "#467fcf",
+  blue: "#1ba41b",
   "blue-darkest": "#0e1929",
   "blue-darker": "#1c3353",
   "blue-dark": "#3866a6",
